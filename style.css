@@ -98,8 +98,8 @@ div.open{
         display: grid;
         grid-template-columns: 2fr;
         grid-template-areas: "header"
-                             "main"
-                             "nav";
+                             "nav"
+                             "main";
     }
     body{
         background-color: white;
