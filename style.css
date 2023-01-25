@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap%22");
+/* Her er link til google font ^ */
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -13,6 +14,7 @@ div.oppsettside{
     max-width: 100%;
    
 }
+/* Dette her er div til hele html siden som sørger for at alt ligger på rikitg plass*/
 
 header {
     border: 1px solid lightgray;
@@ -21,6 +23,7 @@ header {
     justify-content: space-between;
     font-size: 3rem;
 }
+/* Denne her designer header som er øverst på nettsiden der det står "ressursarkiv"*/
 
 nav{
    width: 100%;
@@ -30,12 +33,14 @@ nav{
    left: -2.9%;
  
 }
+/* Dette her er css til "nav" som er der alle de buttons ligger som er "html, css og javascript osv */
 
 nav button:hover {
     color: black;
     border-color: #00ced1;
     background-color: #00ced1;
 }
+/* Denne "button:hover" sørger for at det kommer blå farge på buttons når du trykker på den */
 
 nav button{
     padding: .5rem 1rem;
@@ -45,6 +50,7 @@ nav button{
     text-transform: uppercase;
 
 }
+/* Dette er css design for button om hvor mye avstand det skal være mellom de for eksempel */
 
 .urlLinks:hover .open{
     position: fixed;
@@ -55,11 +61,13 @@ nav button{
     border-top: 6px solid #00ced1;
 
 }
+/* Denne css til "urllinks" er design til når linkene og infoen viser seg, slik det blir vist på ryddig måte som gjør det lesbart*/
 
 #infoMenu {
     display: flex;
     flex-direction: column;
 }
+/* Denne sørger for at alle de nav button ligger bortover, og etter hverandre*/
 
 div.open{
     display: none;
