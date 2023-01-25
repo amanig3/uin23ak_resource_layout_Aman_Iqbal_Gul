@@ -50,7 +50,7 @@ nav button{
     text-transform: uppercase;
 
 }
-/* Dette er css design for button om hvor mye avstand det skal være mellom de for eksempel */
+/* Dette er css design for button om hvor de skal ligge og hva slags form button skal være mellom , og de får en blå linje under seg */
 
 .urlLinks:hover .open{
     position: fixed;
@@ -63,23 +63,19 @@ nav button{
 }
 /* Denne css til "urllinks" er design til når linkene og infoen viser seg, slik det blir vist på ryddig måte som gjør det lesbart*/
 
-#infoMenu {
-    display: flex;
-    flex-direction: column;
-}
-/* Denne sørger for at alle de nav button ligger bortover, og etter hverandre*/
-
 div.open{
     display: none;
 }
+/* Denne sørger for at informajsonen og likene som ligger i button er lukket slik linkene og infoen ikke bare kommer ut med engang man åpner siden*/
 
 .boxMenu {
     display: flex;
 }
+/* Denne sørger for at alle de nav button ligger bortover, og etter hverandre*/
 
 
 @media only screen and (max-width: 434px) {
-    div.container{
+    div.oppsettside{
         display: grid;
         grid-template-columns: 2fr;
         grid-template-areas: "header"
@@ -105,7 +101,7 @@ div.open{
 
 
 @media only screen and (min-width: 435px) and (max-width: 830px){
-    div.container{
+    div.oppsettside{
         display: grid;
         grid-template-columns: 2fr;
         grid-template-areas: "header"
@@ -131,7 +127,7 @@ div.open{
 /* i "media screen" har jeg hentet inspirasjon fra https://stackoverflow.com/questions/16443380/common-css-media-queries-break-points */
 
 @media only screen and (min-width: 831px) {
-    div.container{
+    div.oppsettside{
         display: grid;
         grid-template-columns: 2fr;
         grid-template-areas: "header"
