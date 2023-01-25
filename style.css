@@ -36,7 +36,6 @@ nav{
 /* Dette her er css til "nav" som er der alle de buttons ligger som er "html, css og javascript osv */
 
 nav button:hover {
-    color: black;
     border-color: #00ced1;
     background-color: #00ced1;
 }
@@ -46,7 +45,6 @@ nav button{
     padding: .5rem 1rem;
     border-bottom: 5px solid #00ced1;
     color: black;
-    border-style: groove;
     text-transform: uppercase;
 
 }
@@ -57,7 +55,6 @@ nav button{
     display: block;
     padding: 1rem;
     top: auto;
-    border-style: groove;
     border-top: 6px solid #00ced1;
 
 }
