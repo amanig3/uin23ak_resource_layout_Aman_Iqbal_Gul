@@ -98,9 +98,11 @@ const resources = [
 const navimenu = document.getElementById("navimenu")
 // Dette her er en variabel som er laget for å kunne hente informajson fra arrayen
 let linkmenuHTML = ``;
+// Variabel ^
 resources.map((category) => {
 
     let = infoMenu = ``;
+    // Variabel ^
     category.sources.forEach((pro) => {
         infoMenu += `
         <li><a target="blank" href=${pro.url} >${pro.title}</a></li>`;
